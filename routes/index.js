@@ -54,5 +54,5 @@ var gallery = [
 var last_tweet = 'Sony should redesign the Sony stores... They should tell me what I can do with all the electronics and not what the electronics can do...';
 
 exports.index = function(req, res){
-  res.render('index', { title: 'babafemio.com', gallery: gallery, last_tweet: last_tweet });
+  res.render('index', { title: 'Babafemi Ogungbamila', gallery: gallery, last_tweet: last_tweet });
 };
