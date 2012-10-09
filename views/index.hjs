@@ -7,16 +7,8 @@
     <title>{{ title }}</title>
     <!-- Bootstrap -->
     <link rel='stylesheet' href='/css/bootstrap.min.css' />
-    <style type="text/css">
-      body {
-        padding-top: 60px;
-        padding-bottom: 40px;
-      }
-      .sidebar-nav {
-        padding: 9px 0;
-      }
-    </style>    
     <link rel='stylesheet' href='/css/bootstrap-responsive.min.css' />
+    <link rel='stylesheet' href='/css/styles.css' />   
   </head>
   <body>
 
@@ -32,48 +24,156 @@
           <a class="brand" href="#">{{ title }}</a>
           <div class="nav-collapse collapse">
             <ul class="nav pull-right">
-              <li><a href="#">Profile</a></li>
+              <li><a href="#" data-toggle="collapse" data-target="#resume">Profile</a></li>
               <li><a href="#">Contact</a></li>
             </ul>
           </div><!--/.nav-collapse -->
         </div>
       </div>
     </div>
+    <!-- profile -->
+    <div id="resume" class="container-fluid collapse">
+    	<div class="row-fluid">
+    		<div class="span12">
+    			<h4>Profile</h4>
+    		</div>
+    	</div>
+    	<div class="row-fluid">
+    		<div class="span3">
+    			<div class="row-fluid">
+    				<div class="span10">    					
+    					<img src="/img/profile_photo.jpg" class="img-polaroid"/>
+    				</div>
+    			</div>
+    			<div class="row-fluid">
+    				<div class="span12">
+    					<p>&nbsp;</p>
+    				</div>
+    			</div>
+    		</div>
+    		<div class="span3">
+    			<h5>Babafemi Ogungbamila</h5>
+    			<p><small>
+    				My job is to provide innovative, easy to use, consistent solution platforms and value-added services across multiple consumer touch-points and devices to sustain the growth of revenue and financial transactions in the financial services industry.</small>
+    			</p>
+    			<p><small>
+    				My specialties are Enterprise systems architectures and development, systems development process definition, tools and improvement, project management for systems development projects, electronic payment devices such as ATMs, point-of-sale terminals, self-service kiosks, mobile phones, PDAs, etc., systems integration</small>
+    			</p>
+    		</div>
+    		<div class="span3">
+    			<h5>Expertise and Skills</h5>
+    			<h5>Education</h5>
+    			<h6>Obafemi Awolowo University (1995 - 2001)</h6>
+    			<p><small>B.Sc. Computer Engineering</small>
+    			</p>
+    			<h5>Certifications</h5>
+    			<h6>Microsoft Certified Systems Developer (2001)</h6>
+    			<small>
+    				<ul>
+    					<li>Analyzing Requirements and Defining Solution Architectures</li>
+    					<li>Designing and Implementing Desktop Applications with Microsoft® Visual C++ 6.0</li>
+    					<li>Designing and Implementing Distributed Applications with Microsoft® Visual C++ 6.0</li>
+    					<li>Designing and Implementing Databases with Microsoft® SQL Server 7.0</li>
+    				</ul>
+    			</small>
+    			
+    		</div>    		
+    		<div class="span3">
+    			<h5>Experience</h5>
+    			<h6>Divisional Head, Techquest, InterSwitch Limited (April 2008 – Present)</h6>
+    			<p><small>Provide innovative, easy to use, consistent solution platforms and value-added services across multiple consumer touch-points and devices to sustain the growth of revenue and financial transactions in the financial services industry. Monitor new trends in software technologies and electronic payment processing. Lead a research and new products development team.</small></p>
+    		</div>    		
+    	</div>
+    </div>
+    		<!-- carousel -->
+    <div class="slider-block">
+              <div id="art-gallery" class="carousel slide">
+                <div class="carousel-inner">
+                  <div class="item">
+                    <img src="/img/capoeira-ipanema-brazil_58696_990x742.jpg" alt="" class="gallery-item">
+                    <div class="carousel-caption">
+                      <h4>First Thumbnail label</h4>
+                      <p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
+                    </div>
+                  </div>
+                  <div class="item">
+                    <img src="/img/beltane-fire-festival-scotland-richardson_41129_990x742.jpg" alt="" class="gallery-item">
+                    <div class="carousel-caption">
+                      <h4>Second Thumbnail label</h4>
+                      <p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
+                    </div>
+                  </div>
+                  <div class="item active">
+                    <img src="/img/children-ball-game_57269_990x742.jpg" alt="" class="gallery-item">
+                    <div class="carousel-caption">
+                      <h4>Third Thumbnail label</h4>
+                      <p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
+                    </div>
+                  </div>
+                  <div class="item">
+                    <img src="/img/new-year-thailand_58007_990x742.jpg" alt="" class="gallery-item">
+                    <div class="carousel-caption">
+                      <h4>Third Thumbnail label</h4>
+                      <p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nulam id dolor id nibh ultricies vehicula ut id elit.</p>
+                    </div>
+                  </div>
+                  <div class="item">
+                    <img src="/img/prayer-flags-huey_59625_990x742.jpg" alt="" class="gallery-item">
+                    <div class="carousel-caption">
+                      <h4>Third Thumbnail label</h4>
+                      <p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nulam id dolor id nibh ultricies vehicula ut id elit.</p>
+                    </div>
+                  </div>
+                  <div class="item">
+                    <img src="/img/tai-chi-dawn-shanghai_53927_990x742.jpg" alt="" class="gallery-item">
+                    <div class="carousel-caption">
+                      <h4>Third Thumbnail label</h4>
+                      <p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nulam id dolor id nibh ultricies vehicula ut id elit.</p>
+                    </div>
+                  </div>
+                </div>
+                <a class="left carousel-control" href="#art-gallery" data-slide="prev">‹</a>
+                <a class="right carousel-control" href="#art-gallery" data-slide="next">›</a>
+              </div>
+    </div>
 
-    <!-- container -->
-    <div class="container-fluid">
-      <div class="row-fluid">
-        <div class="span12">
-          <div class="hero-unit">
+      <hr>
+
+          <div class="hero-unit">          	
+          	<!--
             <h1>{{ title }}</h1>
             <p>This is a template for a simple marketing or informational website. It includes a large callout called the hero unit and three supporting pieces of content. Use it as a starting point to create something more unique.</p>
             <p><a class="btn btn-primary btn-large">Learn more »</a></p>
-          </div>
-        </div><!--/span-->
-        <div class="row-fluid">
-	        <div class="span8 offset2">
-	        	<p align="center">
+        	-->
+        	<p align="center">
 	        	<img src="/img/twitter-icon-black_2.png" class="img-rounded"/>
-	        	<p>
-	        	<blockquote class="center">
+	        	</p>
 	              <p align="center" class="lead">Sony should redesign the Sony stores... They should tell me what I can do with all the electronics and not what the electronics can do...</p>
-	              <small>Babafemi Ogungbamila on Twitter</small>
-	            </blockquote>
+	              <p align="center">@babafemio</p>	              
+          </div>
+
+
+    <!-- container -->
+    <div class="container-fluid">
+        <div class="row-fluid">
+	        <div class="span12">
 	              <p align="center">
 	              	<!-- twitter follow -->
 	              	<a href="https://twitter.com/babafemio" class="twitter-follow-button" data-show-count="false" data-size="large" data-show-screen-name="false">Follow @babafemio</a>
 	<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="//platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script></p>
 	        </div><!--/span-->
-	        <div class"span2"></div>
+	        
       </div><!--/row-->
 
-      <hr>
-
-      <footer>
-        <p>© Babafemi Ogungbamila 2012</p>
-      </footer>
 
     </div><!--/.fluid-container-->
+    <footer>
+      <div class="container">
+        <!-- COPYRIGHTS -->
+        <p class="pull-left">&copy; Babafemi Ogungbamila</p>
+        <p class="pull-right"><a href="#">Back to top</a></p>
+      </div>
+    </footer>
     <!-- Bootstrap -->
     <script src="http://code.jquery.com/jquery-latest.js"></script>
     <script src="js/bootstrap.min.js"></script>
