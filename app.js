@@ -22,6 +22,12 @@ app.configure(function(){
   app.use(express.session());
   app.use(app.router);
   app.use(express.static(path.join(__dirname, 'public')));
+
+  // 404
+  app.use(function(req, res, next){
+    res.render('404.hjs', {brand: "Babafemi Ogungbamila", title: "404 - Page Not Found", showFullNav: false, status: 404, url: req.url });
+  });
+
 });
 
 app.configure('development', function(){
