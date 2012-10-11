@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+  <head>
+  	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Personal Website, Resume, Profile">
+    <meta name="author" content="Babafemi Ogungbamila">
+    <title>{{ title }}</title>
+    <!-- Bootstrap -->
+    <link rel='stylesheet' href='/css/bootstrap.min.css' />
+    <link rel='stylesheet' href='/css/bootstrap-responsive.min.css' />
+    <link rel='stylesheet' href='/css/styles.css' />   
+  </head>
+  <body>
+
+  	<!-- navigation -->
+  	<div class="navbar navbar-inverse navbar-fixed-top">
+      <div class="navbar-inner">
+        <div class="container-fluid">
+          <a class="brand" href="/"><b>{{brand}}</b></a>
+        </div>
+      </div>
+    </div>
+            <div class="hero-unit">           
+              <h1>
+                {{title}}
+              </h1>
+              <p>
+                &nbsp;
+              </p>
+              <p class="lead" align="center">
+                Sorry, the page you were looking for does not exist! In fact, there's only one page, so...
+              </p>
+                <p align="center">
+                  <a href="/" class="btn btn-primary btn-large">Home »</a>
+                </p>
+            </div>
+
+    <footer>
+      <div class="container">
+        <!-- COPYRIGHTS -->
+        <p class="pull-left">&copy; Babafemi Ogungbamila</p>
+        <p class="pull-right"><a href="#">Back to top</a></p>
+      </div>
+    </footer>
+    <!-- Bootstrap -->
+    <script src="http://code.jquery.com/jquery-latest.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+  </body>
+</html
