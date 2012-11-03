@@ -24,7 +24,7 @@
           <a class="brand" href="/"><b>{{ brand }}</b></a>
           <div class="nav-collapse collapse">
             <ul class="nav pull-right">
-              <li><a href="#">Blog</a></li>
+              <li><a target="_blank" href="http://blog.babafemio.com">Blog</a></li>
               <li><a href="#" data-toggle="collapse" data-target="#resume">About Me</a></li>              
             </ul>
           </div><!--/.nav-collapse -->
@@ -68,7 +68,7 @@
           </p>
           <hr>
     			<p><small>
-    				Contact me <a target="_blank" href="http://www.twitter.com/babafemio">@babafemio</a>, if you would like to know more, or stay tuned and watch out for the blog...
+    				Contact me <a target="_blank" href="http://www.twitter.com/babafemio">@babafemio</a>, if you would like to know more, or stay tuned to the <a target="_blank" href="http://blog.babafemio.com">blog</a>...
     				</small>
     			</p>
 
@@ -128,6 +128,20 @@
         <p class="pull-right"><a href="#">Back to top</a></p>
       </div>
     </footer>
+
+    <!-- Analytics -->
+    <script type="text/javascript">
+      var _gaq = _gaq || [];
+      _gaq.push(['_setAccount', 'UA-36073901-1']);
+      _gaq.push(['_trackPageview']);
+
+      (function() {
+        var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+        ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+        var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+      })();
+    </script>
+    
     <!-- Bootstrap -->
     <script src="http://code.jquery.com/jquery-latest.js"></script>
     <script src="js/bootstrap.min.js"></script>
