@@ -97,24 +97,19 @@
     </div>    		
 
       <hr>
-
-          <div class="hero-unit">          	
-        	<p align="center">
-	        	<img src="/img/twitter-icon-black_2.png" class="img-rounded"/>
-	        	</p>
-	              <p align="center" class="lead">{{last_tweet}}</p>
-	              <p align="center">@babafemio</p>	              
-          </div>
-
+       
 
     <!-- container -->
     <div class="container-fluid">
         <div class="row-fluid">
 	        <div class="span12">
+                <p align="center">
+                  <a class="twitter-timeline tw-align-center" href="https://twitter.com/babafemio" data-tweet-limit="3" data-width="600">Latest Tweet by babafemio</a>
+                </p>
 	              <p align="center">
 	              	<!-- twitter follow -->
-	              	<a href="https://twitter.com/babafemio" class="twitter-follow-button" data-show-count="false" data-size="large" data-show-screen-name="false">Follow @babafemio</a>
-	<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="//platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script></p>
+	              	<a href="https://twitter.com/babafemio" class="twitter-follow-button" data-show-count="false">Follow @babafemio</a><script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
+                </p>
 	        </div><!--/span-->
 	        
       </div><!--/row-->
